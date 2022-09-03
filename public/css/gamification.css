@@ -1,0 +1,762 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+
+/*NAVBAR START*/
+
+/*NAVBAR COLOR START*/
+.navbar11 {
+    margin: 2px 15px;
+    font-size: 1.1em;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/*NAVBAR COLOR END*/
+
+
+/*NAVBAR LOGO START*/
+.imageinnavbar {
+    height: 70px;
+    margin-right: 40px;
+}
+
+/*NAVBAR LOGO END*/
+
+
+/*NAVBAR LINKS START*/
+.linksinnavbar {
+    margin: 2px 10px;
+}
+
+/*NAVBAR LINKS END*/
+
+/*NAVBARS DROPDOWN STARTS*/
+.ddinnavbar1 {
+    color: white;
+    background-color: black;
+}
+
+/*NAVBARS DROPDOWN ENDS*/
+
+
+/*NAVBAR ICONS START*/
+
+/*ICONS     ***********************START*/
+.whatsappiconinnavbar {
+    color: green;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+}
+
+.telnoinnavbar {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.teliconinnavbar {
+    margin-right: 8px;
+}
+
+.emailiconinnavbar {
+    color: mediumturquoise;
+}
+
+/*ICONS     -----------------------END*/
+
+/*NAVBAR ICONS END*/
+/*MEDIA QUERY STARTS*/
+@media only screen and (max-width:1500px) {
+    .imageinnavbar {
+        margin-right: 30px;
+    }
+
+    .linksinnavbar {
+        margin: 2px 5px;
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .imageinnavbar {
+        margin-right: 20px;
+    }
+
+    .linksinnavbar {
+        margin: 2px 4px;
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .imageinnavbar {
+        margin-right: 20px;
+    }
+
+    .linksinnavbar {
+        margin: 2px 3px;
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .imageinnavbar {
+        margin-right: 15px;
+    }
+
+    .linksinnavbar {
+        margin: 2px 3px;
+        font-size: 0.6em;
+    }
+}
+
+/*CAROUSEL STARTS*/
+/*CAROUSEL START*/
+
+
+/*CAROUSEL SECTION TAG START*/
+.carousel1 {
+    background-color: black;
+}
+
+/*CAROUSEL SECTION TAG END*/
+
+/*IMAGE IN CAROUSEL STARTS*/
+.imageincarousel1 {
+    height: calc(100vh);
+    opacity: 0.5;
+}
+
+/*IMAGE IN CAROUSEL ENDS*/
+/*WORK WITH FUN HEADING STARTS*/
+.wwf {
+    font-family: 'Updock', cursive;
+    font-size: 6em;
+    text-shadow: 2px 2px black;
+}
+
+/*WORK WITH FUN HEADING ENDS*/
+/*LEARN TO EARN HEADING STARTS*/
+.lte {
+    font-family: 'Updock', cursive;
+    font-size: 5em;
+    text-shadow: 2px 2px solid black;
+}
+
+/*LEARN TO EARN HEADING ENDS*/
+/*DESCRIPTION ABOUT UG THAT IS UG IN CAROUSEL STARTS*/
+.desaboutugincar {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 1.4em;
+    padding: 20px;
+}
+
+/*DESCRIPTION OF UG IN CAROUSEL ENDS*/
+/*GET STARTED STARTS*/
+.getstarted {
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    font-size: 1.5em;
+    padding: 30px;
+    color: aliceblue;
+}
+
+.gsa {
+    text-decoration: none;
+    color: white;
+    transition: all;
+    transition-duration: 2s;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.gsa:hover {
+    border: 2px solid palegreen;
+}
+
+/*GET STARTED ENDS*/
+
+/*ABOUT SECTION STARTS*/
+.aboutsection {
+    background: linear-gradient(rgba(0, 0, 0, 0.621), rgba(0, 0, 0, 0.789)), url('../images/about/aboutwall.jpg');
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*ABOUT CONTAINER STARTS*/
+.aboutcont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+/*ABOUT CONTAINER ENDS*/
+/*ABOUT PARA STARTS*/
+.aboutpara {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*ABOUT PARA ENDS*/
+/*ABOUT PARA HEAD STARTS*/
+.aboutparahead {
+    font-size: 1.7em;
+    text-shadow: 2px 2px black;
+    font-weight: 700;
+    color: white;
+}
+
+/*ABOUT PARA HEAD ENDS*/
+/*ABOUT PARA HEAD PARA1 STARTS*/
+.aboutparap1 {
+    color: white;
+    text-align: justify;
+    font-size: 1.25em;
+}
+
+.aboutparap2 {
+    color: white;
+    font-size: 1.14em;
+}
+
+/*ABOUT PARA HEAD PARA1 ENDS*/
+/*ABOUT IMAGE STARTS*/
+.aboutimage {
+    padding: 10px;
+    width: 60%;
+}
+
+.aboutimage1 {
+    width: 100%;
+    border: 5px solid rgb(75, 74, 72);
+    margin: 10px;
+    transition: all;
+    transition-duration: 2s;
+}
+
+.aboutimage1:hover {
+    transform: scale(1.04);
+}
+
+/*ABOUT IMAGE ENDS*/
+/*ABOUT PARA LIST STARTS*/
+.aboutparalist {
+    list-style-type: none;
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.aboutparalist li {
+    padding: 5px;
+    font-style: italic;
+}
+
+/*ABOUT PARA LIST ENDS*/
+/*ICON FOR THE CONTROLLER STARTS*/
+.icont {
+    color: #cda45e;
+    padding-right: 10px;
+}
+
+/*ICON FOR THE CONTROLLER ENDS*/
+/*ABOUT SECTION ENDS*/
+
+/*STATUS SECTION STARTS*/
+.statussection {
+    padding: 100px 40px;
+    background-color: #0c0b09;
+}
+
+/*STATUS SECTION ENDS*/
+/*STATUS PARA CONTAINER STARTS*/
+.statuspara {
+    display: flex;
+    flex-direction: column;
+}
+
+/*STATUS PARA CONTAINER ENDS*/
+
+/*STATUS PARA HEAD STARTS*/
+
+/*STATUS PARA HEAD ENDS*/
+
+/*SMALL STATUS PARA HEAD STARTS*/
+.smallstatusparahead {
+    font-size: 1.3em;
+    line-height: 1px;
+    font-weight: 700;
+    color: grey;
+}
+
+.smallstatusparahead::after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    border-top: 1px solid grey;
+    width: 10%;
+    top: -7px;
+    right: -10px;
+}
+
+/*SMALL STATUS PARA ENDS*/
+
+/*LARGE STATUS PARA HEAD STARTS*/
+.largestatusparahead {
+    color: #cda45e;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/*LARGE STATUS PARA HEAD ENDS*/
+/*STATUS BOXES STARTS*/
+.statusboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 10px;
+}
+
+/*STATUS BOXES ENDS*/
+/*STATUS BOX1 STARTS*/
+.statusescont {
+    background-color: #1a1814;
+    color: white;
+    padding: 40px 30px;
+    transition: all;
+    transition-duration: 2s;
+    width: 23%;
+    position: relative;
+}
+
+.statusescont:hover {
+    top: -20px;
+    background-color: #cda45e;
+}
+
+.statusescont:hover div {
+    color: white;
+}
+
+/*STATUS BOX1 ENDS*/
+/*STATUS ICON STARTS*/
+.iconsforstatus {
+    display: flex;
+    flex-direction: row;
+    color: #cda45e
+}
+
+/*STATUS ICON*/
+.iconsforstatus i {
+    font-size: 2em;
+    padding-right: 20px;
+}
+
+/*STATUS ICON*/
+
+/*STATUS NUMBER STARTS*/
+.headforstatus {
+    font-size: 2em;
+    color: #cda45e;
+}
+
+/*STATUS NUMBER ENDS*/
+/*STATUS DESCRIPTION STARTS*/
+.descriptionstatus {
+    font-size: 1.2em;
+    color: darkgrey;
+}
+
+/*STATUS DESCRIPTION ENDS*/
+/*STATUS ICON ENDS*/
+
+/*SERVICES SECTION STARTS*/
+/*SERVICES SECTION START*/
+.servicessection {
+    padding: 40px;
+    background-color: #1a1814;
+}
+
+/*SERVICES SECTION ENDS*/
+/*SERVICE SECTION HOLDER STARTS*/
+.serviceholder {
+    font-size: 1.2em;
+    color: rgb(244, 239, 239);
+    text-align: left;
+    padding-top: 50px;
+}
+
+/*SERVICE SECTION HOLDER ENDS*/
+/*SERVICES BOX 1 STARTS*/
+.servicesbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.servicesbox1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    margin: 10px;
+    transition-duration: 1s;
+    padding: 20px;
+    transform: scale(0.8);
+    box-shadow: 0 0 10px rgb(39, 32, 32);
+}
+
+/*SERVICES BOX 1 ENDS*/
+/*SERVICES BOX HOVER STARTS*/
+.servicesbox1:hover {
+    transform: scale(0.9);
+    background-color: rgba(251, 249, 249, 0.8);
+    box-shadow: none;
+}
+
+.servicesbox1:hover p {
+    color: #1a1814
+}
+
+/*SERVICES BOX HOVER ENDS*/
+
+/*SERVICES EMOJI AND HEADING STARTS*/
+.servicesh i {
+    font-size: 4em;
+    color: #cda45e;
+    padding: 10px;
+    background-color: #5f5950;
+}
+
+.servicesh p {
+    font-size: 1.5em;
+    color: gainsboro;
+    font-weight: 700;
+}
+
+.servicesd {
+    color: #ded1bd;
+    font-size: 1.1em;
+}
+
+/*SERVICES EMOJI AND HEADING ENDS*/
+
+/*SERVICES HEAD STARTS*/
+
+/*SERVICES HEAD ENDS*/
+/*SERVICES SECTION ENDS*/
+/*SERVICES SECTION ENDS*/
+
+/*CALL TO ACTION STARTS*/
+.calltoaction {
+    background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.56)), url('../images/cta/coolpc.jpg');
+    background-attachment: fixed;
+}
+
+/*CONTAINER FOR CTA STARTS*/
+.containerforcta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 90px 100px;
+}
+
+/*CONTAINER FOR CTA ENDS*/
+/*CTAH STARTS*/
+.ctah {
+    color: white;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+    margin-bottom: 20px;
+}
+
+/*CTAH ENDS*/
+/*CTAD STARTS*/
+.ctad {
+    color: white;
+    font-size: 1.3em;
+}
+
+/*CTAD ENDS*/
+/*CTAB STARTS*/
+.ctab {
+    color: white;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: 2px solid white;
+    width: 260px;
+    align-self: center;
+    font-size: 1.3em;
+}
+
+.ctab:hover {
+    background-color: rgb(5, 151, 151);
+    color: white;
+}
+
+/*CTAB ENDS*/
+/*CALL TO ACTION ENDS*/
+
+/*HOW TO USE IT SECTION STARTS*/
+.howtouseitsection {
+    padding: 40px;
+    background-color: #0c0b09;
+}
+
+/*HOW TO USE IT SECTION ENDS*/
+/*HOW TO USE IT CONTAINER*/
+.htuicont {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+/*HOW TO USE IT BOX*/
+.htuibox {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #5f5950;
+    width: 28%;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 2s;
+    background-color: transparent;
+}
+
+.htuibox:hover {
+    transform: translate(0px, -20px);
+}
+
+/*IMAGE IN THE CARD*/
+.imgcard {
+    width: 100%;
+    padding: 20px;
+}
+
+.imgcard img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+}
+
+/*IMG HEAD STARTS*/
+.imghead {
+    text-align: center;
+    color: #cda45e;
+    font-size: 1.4em;
+}
+
+/*IMG DESCRIPTION*/
+.htuides {
+    font-size: 1.1em;
+    color: #ded1bd;
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.htuibtn {
+    text-align: center;
+    justify-items: center;
+    margin: 10px;
+}
+
+.htuiinfo {
+    color: #ded1bd;
+}
+
+/*TEAM STARTS*/
+/*TEAMS*/
+.team {
+    padding: 80px;
+    background-color: #1a1814;
+}
+
+.container1 {
+    position: relative;
+    width: 20%;
+}
+
+.imgt1 {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.001), #1a1814);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    text-shadow: 1px 1px black;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container111 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+/*TEAM ENDS*/
+/*TEAM ENDS*/
+
+
+/*FREQUENTLY ASKED QUESTIONS START*/
+.faq {
+    padding: 80px;
+    background-color: #0c0b09;
+}
+
+/*FAQ STARTS*/
+.faq1 {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20px 40px 20px;
+}
+
+.faq11 {
+    display: flex;
+    justify-content: space;
+    flex-direction: row;
+}
+
+.faqh {
+    color: #ded1bd;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.1em;
+    margin: 20px 20px 20px 20px;
+    text-align: justify;
+    width: 40%;
+}
+
+.faqd {
+    margin: 20px;
+    width: 50%;
+    font-size: 1.1em;
+    color: rgb(193, 166, 166);
+}
+
+.qi {
+    color: #cda45e
+}
+
+.faqs {
+    margin-top: 100px;
+}
+
+/*FAQ ENDS*/
+
+/*FREQUENTLY ASKED QUESTIONS END*/
+
+/*CONTACT US*/
+/*CONTACT US STARTS*/
+.cu {
+    display: flex;
+    flex-direction: row;
+    background-color: #1a1814;
+    padding: 50px;
+}
+
+.cu11 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    width: 30%;
+    border-top: 5px solid rgb(223, 64, 7);
+    background-color: rgba(0, 0, 0, 0.442);
+}
+
+.cu11 h2 {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.ii {
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(10, 37, 111, 0.5);
+}
+
+.cu12 {
+    color: white;
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+.cu12 a {
+    color: white;
+    text-decoration: none;
+}
+
+.iii {
+    color: orangered;
+}
+
+.cu13 {
+    color: white;
+    font-size: 0.9em;
+    margin-left: 80px;
+}
+
+.cu14 {
+    color: white;
+    font-size: 0.9em;
+    margin-left: 80px;
+}
+
+.cu14 p {
+    margin-bottom: 20px;
+}
+
+.but1 {
+    background-color: orangered;
+    padding: 10px 20px;
+    margin-left: 0px;
+    color: white;
+    text-decoration: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*CONTACT US ENDS*/
